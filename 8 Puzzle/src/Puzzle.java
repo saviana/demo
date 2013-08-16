@@ -7,6 +7,7 @@ public class Puzzle {
 		// TODO Auto-generated method stub
 		int[] arr = {'1','0','3','4','2','5','7','8','6'};
 		int[] goal = {'1','2','3','8','0','4','7','6','5'};
+		//add omment
 		Stack stack = new Stack();//stack
 		stack.push(arr);
 		int[] temp=(int[]) stack.pop();
